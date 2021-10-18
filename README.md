@@ -5,49 +5,23 @@ All you have to do is  just to upload the image and click on the "Diagnose" butt
 For detailed instructions, see "tutorial_of_DLAEMON.docx".
 
 # Requirement
-* Users of mac
+- Python3
 
-    Just double-click on DLAEMON/dist/dlaemon to use it.
-
-* Non-mac users, or those who have had trouble with the above methods
-
-    - Python3
-    - Pillow
-    - PyTorch
-    - torchvision
-    - numpy
 
 # Installation
-* If you are a non-mac user, or if the above method did not work for you, please run the following to install the necessary libraries, etc.
+* Run the following to install the necessary libraries, etc.
     - Download and install Python3 from https://www.python.org.
-    - Type the following command on the command line to install Pillow.
+    - Type the following command on the command line to install packages.
 
     ```bash
-    pip install Pillow
-    ```
-    - Type the following command on the command line to install PyTorch.
-    ```bash
-    pip install torch
-    ```
-    - Type the following command on the command line to install torchvision.
-    ```bash
-    pip install torchvision
-    ```
-    - Type the following command on the command line to install numpy.
-
-    ```bash
-    pip install numpy
+    pip install -r requiremets.txt
     ```
 
  
 # Usage
-* Users of mac
 
-    Double-click on NOBITA/dist/nobita to use it.
-* If you are not a mac user, or if the above methods did not work for you
+Type the following command.
 
-
-    Type the following command.
 ```bash
 git clone https://github.com/igemsoftware2021/Kyoto_DLAEMON.git
 cd Kyoto_DLAEMON/DLAEMON
